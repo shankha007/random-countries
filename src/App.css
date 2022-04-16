@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.mainCard {
+  width: 18rem;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 5%;
+}
+
+.card-title {
+  font-size: 28px;
+}
+
+img {
+  height: 160px;
+}
+
+.randomButton {
+  margin-top: 3%;
+}
+
+.neighBtn {
+  margin: 2px;
+}
