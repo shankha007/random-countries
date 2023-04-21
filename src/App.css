@@ -3,10 +3,22 @@
 }
 
 .mainCard {
-  width: 18rem;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  margin-top: 5%;
+  width: 20rem;
+  display: flex;
+  margin: 1rem auto;
+}
+
+.card {
+  padding: 1rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(1rem);
+  box-shadow: 0.75rem 0.75rem 2rem rgba(0, 0, 0, 0.5);
+  border-top-color: rgba(225, 225, 225, 0.5) !important;
+  border-left-color: rgba(225, 225, 225, 0.5) !important;
+  border-bottom-color: rgba(225, 225, 225, 0.1) !important;
+  border-right-color: rgba(225, 225, 225, 0.1) !important;
+
+  background-color: rgba(225, 225, 225, 0.1) !important;
 }
 
 .card-title {
@@ -15,6 +27,19 @@
 
 img {
   height: 160px;
+  border-radius: 1rem;
+}
+
+.list {
+  border-radius: 0.5rem !important;
+  background-color: rgba(225, 225, 225, 0.1) !important;
+  border: none !important;
+}
+
+.list-group-item {
+  background-color: rgba(225, 225, 225, 0.1) !important;
+  border: none;
+  color: #e0dbcc;
 }
 
 .randomButton {
@@ -23,4 +48,6 @@ img {
 
 .neighBtn {
   margin: 2px;
+  background-color: #292929;
+  border: none;
 }

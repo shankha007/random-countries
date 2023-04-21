@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 import { countries } from "./countries";
 import "./App.css";
 
@@ -71,12 +72,12 @@ function App() {
       {country === null ? (
         fetchDetails("India")
       ) : (
-        <div className="card text-white border-dark bg-dark mb-3 mainCard">
-          <img src={country.flag} className="card-img-top" alt="flag" />
+        <div className="card text-white border-dark bg-dark mainCard">
+          <img src={country.flag} alt="flag" />
           <div className="card-body">
             <h5 className="card-title">{country.name}</h5>
           </div>
-          <ul className="list-group list-group-flush">
+          <ul className="list-group list">
             <li className="list-group-item">
               Capital: <strong>{country.capital}</strong>
             </li>
