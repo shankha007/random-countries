@@ -43,7 +43,26 @@ img {
 }
 
 .randomButton {
-  margin-top: 3%;
+  margin: 2%;
+  padding: 0.6rem;
+  background-image: linear-gradient(
+    to right,
+    #757f9a 0%,
+    #d7dde8 51%,
+    #757f9a 100%
+  );
+  color: #000;
+  border: 1px solid #000;
+}
+
+.randomButton:hover {
+  background-image: linear-gradient(
+    to right,
+    #232526 0%,
+    #414345 51%,
+    #232526 100%
+  );
+  border: 1px solid #fff;
 }
 
 .neighBtn {

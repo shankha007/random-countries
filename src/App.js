@@ -65,7 +65,7 @@ function App() {
       <button
         onClick={changeCountry}
         type="button"
-        className="btn randomButton btn-outline-primary"
+        className="btn randomButton btn-primary"
       >
         Generate Random Country!
       </button>
